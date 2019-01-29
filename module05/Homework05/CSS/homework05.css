@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.container {
+    background-image: url(../IMG/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+}
+
+.title1 {
+    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text {
+    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15px;
+    color: rgba(26, 188, 156, 255);
+    text-align: right;
+    margin-right: 50px;
+}
+
+.container1 {
+    display: block;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.box1 {
+    width: 900px;
+    margin-bottom: 250px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.photo1 {
+    width: 200px;
+    margin-right: 15px;
+    float: left;
+}
+
+.photo2 {
+    /* background-image: url(../IMG/3.png);
+    background-position: center; */
+    width: 200px;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 100px;
+}
+
+.photo3 {
+    width: 200px;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.photo4 {
+    width: 200px;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.title:hover {
+    background-color: #323232;
+}
+
+.footer {
+    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 10px;
+    color: rgba(60, 60, 60, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+/* :root {
+    --background: blue;
+}
+
+.wrapper {
+
+    width: 500px;
+    height: 500px;
+    background: red;
+    position: relative;
+}
+
+.container {
+    widows: 500px;
+    height: 500px;
+    background: yellow;
+
+}
+
+.containerInner {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    background: green;
+    right: -500px;
+
+}
+
+.wrapper:hover .containerInner {
+    transform: translateX(500px);
+    transition: all 2s ease;
+} */

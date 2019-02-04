@@ -18,6 +18,14 @@
     text-align: center;
 }
 
+.icon1 {
+    position: absolute;
+    padding: 175px 0 100px 0;
+    color: #509d8b;
+    width: 100px;
+    height: 100px;
+}
+
 .title1 {
     font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
     font-size: 30px;

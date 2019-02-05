@@ -17,7 +17,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #1b1b1b;
-    width: 100%;
     height: 480px;
 }
 
@@ -26,8 +25,6 @@ body {
     border: none;
     background: none;
     font-size: 20px;
-    color: white;
-    margin: 0 0 0 10px;
 }
 
 .signup {
@@ -80,57 +77,47 @@ a {
 }
 
 .section2 {
-    text-align: center;
-    font-size: 18px;
-    padding: 10px;
-    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .section3 {
-    margin: 0 10px;
-}
-
-
-.box1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-top: 10px;
-    position: relative;
+    margin: 20px 0;
 }
 
-.box2 {
+.section4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-top: 10px;
-    position: relative;
+    margin: 20px 0;
+
 }
 
-.box3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 10px;
-    position: relative;
-}
-
+.box1,
+.box2,
+.box3,
 .box4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    margin-top: 10px;
-    position: relative;
+    margin-bottom: 20px;
 }
+
 
 .photo {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 .icon {
@@ -138,8 +125,8 @@ a {
     height: 30px;
     background-color: #ff4e50;
     position: absolute;
-    top: 44%;
-    right: 33%;
+    bottom: 10%;
+    right: 30%;
     border-radius: 50%;
 }
 
@@ -148,9 +135,12 @@ a {
     padding: 10px;
 }
 
+.morepartners {
+    text-align: center;
+    margin: 25px 0;
+}
+
 .findpartners {
-    width: 280px;
-    height: 40px;
     border: 3px solid #ff4e50;
     border-radius: 20px;
     background: no-repeat;
@@ -160,183 +150,52 @@ a {
     color: #ff4e50;
     font-size: 20px;
     width: 280px;
-}
-
-
-
-
-
-
-
-
-/* .menu {
-    position: relative;
-    max-width: 480px;
-    max-height: 540px;
-    background: #252523;
-}
-
-
-
-.photo1 {
-    width: 100%;
-    height: 540px;
-}
-
-.login {
-    position: absolute;
-    top: 5%;
-    left: 60%;
-    font-size: 25px;
-    width: 90px;
-    height: 35px;
-    border: 3px solid white;
-    background: transparent;
-    border-radius: 15px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.signup {
-    position: absolute;
-    top: 5%;
-    left: 15%;
-    font-size: 20px;
-    width: 90px;
-    height: 35px;
-    border: none;
-    background: transparent;
-}
-
-.findpartner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 480px;
-    position: absolute;
-    top: 25%;
-    left: 3%;
-    color: white;
-}
-
-.title {
-    font-size: 20px;
-    padding: 20px;
-}
-
-.text1 {
-    font-size: 35px;
-    padding: 10px;
-    text-align: center;
-
-}
-
-.text2 {
-    font-size: 15px;
-    padding: 20px;
-}
-
-.find {
-    width: 280px;
     height: 40px;
-    font-size: 20px;
-    background-color: #ff4e50;
-    border: none;
-    border-radius: 20px;
-}
-
-.title1 {
-    max-width: 480px;
-    margin: 20px 10px 20px 10px;
-    color: #333333;
-    text-align: center;
-    font-size: 20px;
 }
 
 
-.section2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 480px;
-    position: relative;
-}
 
-.photo {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin: 20px 0 20px 0;
-}
 
-.icon {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 43%;
-    left: 57%;
-    background-color: #ff4e50;
-    border-radius: 20px;
-    border: 3px solid white;
-    padding: 5px;
-}
+@media (min-width: 767px) {
 
-.title2 {
-    margin: 30px 0 10px 0;
-}
+    .section3,
+    .section4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-.location {
-    width: 200px;
-    height: 30px;
-    text-align: center;
-}
+    .section1 {
+        background-image: url(../img/10.png);
+        display: flex;
+        justify-content: space-evenly;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #1b1b1b;
 
-.section3, .section4, .section5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 480px;
-    position: relative;
-    margin: 30px 0 30px 0;
-}
+    }
 
-.icon3, .icon4, .icon5 {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    background-color: #ff4e50;
-    border-radius: 20px;
-    border: 3px solid white;
-    padding: 5px;
+    .location {
+        text-align: center;
+        width: 200px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        background-color: #ff4e50;
+        position: absolute;
+        bottom: 0%;
+        right: 20%;
+        border-radius: 50%;
+    }
 
 }
 
-.info {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin: 20px 0 20px 0;
+@media (min-width: 1200px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
-
-.morepartners {
-    margin-top: 50px;
-    max-width: 480px;
-}
-
-.box1 {
-    width: 280px;
-    height: 40px;
-    font-size: 20px;
-    background-color: #ff4e50;
-    border: none;
-    border-radius: 20px;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
-}
-*/
